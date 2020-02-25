@@ -412,6 +412,12 @@ public class WeatherActivity extends AppCompatActivity {
             e.printStackTrace();
         }
         weatherLayout.setVisibility(View.VISIBLE);
+        RecyclerView recyclerView=(RecyclerView)findViewById(R.id.recycler_view);
+        LinearLayoutManager layoutManager=new LinearLayoutManager(this);
+        layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
+        recyclerView.setLayoutManager(layoutManager);
+        HourlyAdapter adapter=new HourlyAdapter(weather.hourlyList);
+        recyclerView.setAdapter(adapter);
         Intent intent=new Intent(this, AutoUpdateService.class);
         startService(intent);
     }
