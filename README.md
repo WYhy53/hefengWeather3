@@ -7,7 +7,7 @@
 通过城市选择按钮从对应的省市县列表中选择的城市从而展示对应城市的天气数据.右上角表示对应展示的天气数据的更新的时间,往下依次是此时的实况天气,每隔3小时的整点时刻天气状况,当天和未来六天天气预报和当日生活建议.
 
 
-![image](https://github.com/WYhy53/UIPractice/blob/master/hefeng.gif)
+![image](https://github.com/WYhy53/hefengWeather3/blob/master/hefeng3.gif)
 
 
 使⽤到的⽐较重要的技术及知识点：
